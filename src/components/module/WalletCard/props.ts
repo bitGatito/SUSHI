@@ -9,4 +9,5 @@ export interface WalletCardProps {
   onPress?: () => void;
   template?: boolean;
   language: string;
+  currency: string;
 }

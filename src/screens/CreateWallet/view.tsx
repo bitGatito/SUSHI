@@ -45,6 +45,14 @@ const CreateWalletView = (props: CreateWalletProps) => {
             onChangeText={(text) => setLabel(text)}
             theme={theme}
           />
+          
+          <Button containerStyle={styles.buttonContainer}
+            onPress={() =>
+              console.log("link account")
+            }
+            translationKey="LINK_ACCOUNT"
+            theme={theme}
+          />
 
           <TextInput
             containerStyle={styles.textFieldContainer}

@@ -8,10 +8,11 @@ const en_US = {
   TOTAL_BALANCE: 'Total Balance',
 
   // ADD ACCOUNT
-  ADD_ACCOUNT: 'Add Account',
+  ADD_ACCOUNT: 'Connect Bank Accounts',
   ACCOUNT_NAME: 'Account Name',
   INITIAL_AMOUNT: 'Initial Amount',
   CREATE_ACCOUNT: 'Create Account',
+  LINK_ACCOUNT: 'Link Account',
 
   // EDIT ACCOUNT
   EDIT_ACCOUNT: 'Edit Account',

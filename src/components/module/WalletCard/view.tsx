@@ -38,7 +38,7 @@ const WalletCard = (props: WalletCardProps) => {
       <Text variant="subtitle" theme={theme}>
         {formatCurrency(balance, { language })}
       </Text>
-      <Text theme={theme}>{label}</Text>
+      <Text theme={theme} style={{fontFamily: 'Heebo-SemiBold'}}>{label}</Text>
     </TouchableOpacity>
   );
 };

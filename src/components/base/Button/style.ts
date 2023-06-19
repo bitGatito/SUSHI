@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { Theme } from 'store/theme';
 import { COLORS } from 'theme';
 
-const BUTTON_HEIGHT = 40;
+const BUTTON_HEIGHT = 60;
 
 const useStyles = (theme: Theme = DEFAULT_THEME) => {
   const colors = COLORS[theme.base];
@@ -21,7 +21,7 @@ const useStyles = (theme: Theme = DEFAULT_THEME) => {
     },
     text: {
       fontFamily: 'Heebo-Bold',
-      fontSize: 12,
+      fontSize: 13,
       color: COLORS.DARK.PRIMARY_TEXT,
       textTransform: 'uppercase',
       letterSpacing: 1,
@@ -41,7 +41,7 @@ const useStyles = (theme: Theme = DEFAULT_THEME) => {
     },
     outlineText: {
       fontFamily: 'Heebo-Bold',
-      fontSize: 12,
+      fontSize: 13,
       color: colors.PRIMARY_TEXT,
       textTransform: 'uppercase',
       letterSpacing: 1,

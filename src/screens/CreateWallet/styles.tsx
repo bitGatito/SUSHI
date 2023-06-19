@@ -28,6 +28,9 @@ const useStyles = () => {
     textFieldContainer: {
       marginTop: 16,
     },
+    buttonContainer: {
+      marginTop: 16,
+    },
     actionsContainer: {
       padding: 16,
     },
